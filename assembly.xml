@@ -1,0 +1,17 @@
+<assembly>  
+        <id>all</id>  
+        <formats>  
+            <format>dir</format>  <!-- 其他可选格式 gzip/zip/tar.gz/ -->  
+        </formats>  
+      
+        <includeBaseDirectory>false</includeBaseDirectory>  
+      
+        <dependencySets>  
+            <dependencySet>  
+                <outputDirectory>/lib</outputDirectory>  
+                <useProjectArtifact> true</useProjectArtifact>  
+                <unpack>false</unpack>  
+                <scope> runtime</scope>  
+            </dependencySet>  
+        </dependencySets>  
+</assembly>  
